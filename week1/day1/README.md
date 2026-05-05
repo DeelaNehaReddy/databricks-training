@@ -1,27 +1,63 @@
-# Week 1 - Day 1 (SQL Practice)
+# Week 1 - Day 1 SQL Practice
 
-## Platform Used
+##  Overview
 
-DB Fiddle
+This task focuses on practicing **basic SQL queries** using the Employee and Department tables.
+The queries were executed using DB Fiddle.
+
+##  Platform Used
+
+* DB Fiddle (Online SQL Compiler)
+
+
+##  Files Included
+
+* `schema.sql` → Contains table creation queries
+* `questions.sql` → Contains SQL queries (Q1–Q15)
+* `outputs/` → Contains screenshots of query results
+
 
 ## Topics Covered
 
-* SELECT Queries
-* WHERE Clause
-* LIKE Operator
-* Aggregate Functions
-* GROUP BY
-* HAVING
-* ORDER BY
-* JOINS
+###  Basic Queries
+
+* Selecting all columns
+* Selecting specific columns
+* Using WHERE conditions
 * Subqueries
 
-## Files Included
+###  String Matching Queries
 
-* questions.sql → Contains all SQL queries
-* outputs/ → Contains query result screenshots
+* LIKE operator
+* Pattern matching (`%`, `_`)
+* Filtering based on string conditions
 
-##  Description
+### Date Queries
 
-Practiced basic to intermediate SQL queries using DB Fiddle.
-Created tables using schema SQL and executed multiple queries for understanding data retrieval and manipulation.
+* Filtering by year
+* Filtering by month
+* Comparing dates
+* Range-based filtering
+
+## Description
+
+* Created tables using schema SQL
+* Executed queries from Q1 to Q15
+* Practiced filtering data using conditions, pattern matching, and date operations
+* Verified outputs using DB Fiddle
+
+##  Status
+
+1. Completed Basic Queries
+2. Completed String Matching Queries
+3. Completed Date Queries (Q1–Q15)
+
+
+##  Learning Outcome
+
+Gained hands-on experience in:
+
+* Writing basic SQL queries
+* Using LIKE for pattern matching
+* Working with date conditions
+* Understanding data retrieval from relational tables
