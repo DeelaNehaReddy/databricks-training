@@ -45,4 +45,4 @@ SELECT * FROM Employee WHERE hire_date < '2019-01-01';
 SELECT * FROM Employee WHERE hire_date >= '2021-03-01';
 
 --Q15 Select employees hired in the last 2 years
-SELECT * FROM Employee WHERE hire_date >= '2024-05-05'; (Assuming current date 2026)
+SELECT * FROM Employee WHERE hire_date >= '2022-05-05'; (Assuming current date 2026)
