@@ -26,7 +26,7 @@ SELECT department_id, SUM(salary) FROM Employee GROUP BY department_id;
 SELECT department_id, AVG(age) FROM Employee GROUP BY department_id;
 
 --Q23 Select the number of employees hired in each year.
-SELECT strftime('%Y', hire_date), COUNT(*) FROM Employee GROUP BY strftime('%Y', hire_date);
+SELECT YEAR(hire_date), COUNT(*)  FROM Employee GROUP BY YEAR(hire_date);
 
 --Q24 Select the highest salary in each department.
 SELECT department_id, MAX(salary) FROM Employee GROUP BY department_id;
