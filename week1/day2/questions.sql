@@ -15,8 +15,6 @@ SELECT department_id, COUNT(*) FROM Employee GROUP BY department_id;
 --Q20 Select the average salary of employees in each department.
 SELECT department_id, AVG(salary) FROM Employee GROUP BY department_id;
 
-  
-
 --Group By Queries
 
 --Q21 Select the total salary for each department.
@@ -43,7 +41,7 @@ SELECT department_id FROM Employee GROUP BY department_id HAVING COUNT(*) > 2;
 SELECT department_id FROM Employee GROUP BY department_id HAVING AVG(salary) > 55000;
 
 --Q28 Select years with more than 1 employee hired.
-SELECT strftime('%Y', hire_date) FROM Employee GROUP BY strftime('%Y', hire_date) HAVING COUNT(*) > 1;
+SELECT YEAR(hire_date) FROM Employee GROUP BY YEAR(hire_date) HAVING COUNT(*) > 1;
 
 --Q29 Select departments with a total salary expense less than 100000.
 SELECT department_id FROM Employee GROUP BY department_id HAVING SUM(salary) < 100000;
