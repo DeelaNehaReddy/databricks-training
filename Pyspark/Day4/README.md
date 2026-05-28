@@ -1,4 +1,3 @@
-```md
 # Day 4 - PySpark Learnings
 
 ## Topics Learned
@@ -15,5 +14,3 @@
 - `upper()` – Converts text to uppercase.
 - `lower()` – Converts text to lowercase.
 - `initcap()` – Converts the first letter of each word to uppercase.
-```
-
